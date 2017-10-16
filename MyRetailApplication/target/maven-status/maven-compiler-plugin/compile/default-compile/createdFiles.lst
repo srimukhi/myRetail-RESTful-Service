@@ -1,0 +1,8 @@
+io\myRetail\model\PriceRepository.class
+io\myRetail\exceptionHandler\ApiError.class
+io\myRetail\controller\ProductController.class
+io\myRetail\service\DataServiceImpl.class
+io\myRetail\exceptionHandler\RestExceptionHandler.class
+io\myRetail\MyRetailApplication.class
+io\myRetail\service\DataService.class
+io\myRetail\model\Price.class
