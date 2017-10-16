@@ -40,8 +40,9 @@ Installation steps:
 
 
 Steps to run the application:
-•	I have provided two runnable jar files, one for Database setup and one for the main Application that performs REST services
-•	We should make sure that MongoDB runs on the background whenever we are making a connection to it via our application.
+I have provided two runnable jar files, one for Database setup and one for the main Application that performs REST services
+We should make sure that MongoDB runs on the background whenever we are making a connection to it via our application.
+
 •	Now, run the DbSetup-0.0.1—SNAPSHOT.jar in the command prompt in the following way,
 -	Navigate to the folder where the DbSetup jar file is downloaded on your system and pass the command:
 java –jar DbSeeder-0.0.1-SNAPSHOT.jar
