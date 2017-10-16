@@ -48,6 +48,7 @@ java –jar DbSeeder-0.0.1-SNAPSHOT.jar
 -	By doing this, Spring Boot fires and the connection to the MongoDB opens and the project runs where the REST API services are developed.
 -	To verify, open the data store through Robomongo, and see if there is a data store named MyPriceDb. Also, check if the collection price has values in it.
 -	Now close the connection by entering Ctrl+C in command prompt
+
 •	Now, run the MyRetailApplication-0.0.1-SNAPSHOT jar in the prompt in the following way,
 -	Navigate to the folder where the MyRetailApplication jar file is downloaded and pass the command:
 java –jar MyRetailApplication-0.0.1-SNAPSHOT.jar
