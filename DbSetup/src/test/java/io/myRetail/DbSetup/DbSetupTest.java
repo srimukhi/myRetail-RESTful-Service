@@ -27,19 +27,11 @@ public class DbSetupTest {
 	public void testGetPriceById(){
 		Price price = new Price(123456,1000.51,"USD");
 		when(priceRepository.findById(123456)).thenReturn(price);
-		assertEquals(123456, price.getId());
-		//assertEquals(1000.51, result.getValue());
-		assertEquals("USD", price.getCode());
+		assertEquals(priceRepository.findById(123456).getId(), price.getId());
+		assertEquals(priceRepository.findById(123456).getValue(), price.getValue(), 0);
+	
+		assertEquals(priceRepository.findById(123456).getCode(), price.getCode());
 	}
 	
-	//Testing save operation
-	@Test
-	public void saveToDo(){
-		Price price = new Price(8,10000,"USD");
-		when(priceRepository.save(price)).thenReturn(price);
-		assertEquals(8, price.getId());
-		//assertEquals(10000, result.getValue());
-		assertEquals("USD", price.getCode());
-	}
 }
 	
